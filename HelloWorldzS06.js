@@ -5,7 +5,7 @@ var server = http.createServer(function (req, res) {   //create web server
         res.writeHead(200, { 'Content-Type': 'text/html' });
 
         // set response content
-        res.write('<html><title>Hello World</title><body><p>Hello World, this version should be tagged v1.0.3.</p></body></html>');
+        res.write('<html><title>Hello World</title><body><p>Hello World, this version should be tagged v1.0.2.</p></body></html>');
         res.end();
 
     }
